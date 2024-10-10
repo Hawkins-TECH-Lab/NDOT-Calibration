@@ -1,6 +1,6 @@
 # Traffic Volume Prediction and Calibration Using Big Data Sources
 
-This repository accompanies the paper: *Enhancing Traffic Volume Prediction by Integrating StreetLight Data, Road Attributes, and EPA Smart Location Database*. 
+This repository accompanies the paper: *Integrating StreetLight, EPS Smart Location Data and Road Attributes: A Random Forest Approach to Multi-Modal Traffic Calibration in Lincoln, Nebraska*. 
 
 The objective of this study is to verify and enhance the accuracy of StreetLight Data (StL) traffic volumes by calibrating them against traditional traffic volume data from the City of Lincoln (CoL). Additionally, this study integrates road attributes and the EPA Smart Location Database (EPA-SLD) to improve traffic volume prediction accuracy.
 
