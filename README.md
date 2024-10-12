@@ -8,7 +8,7 @@ The objective of this study is to verify and enhance the accuracy of StreetLight
 
 For Location-Based Services (LBS) data to achieve its purpose, it is crucial to rigorously assess and improve the accuracy of the data. This paper addresses the challenge by developing traffic prediction models and integrating the following data sources:
 
-- **StreetLight Data (StL)**: A traffic volume dataset used to measure vehicle, pedestrian, and bicycle volumes.
+- **StreetLight Data (StL)**: A traffic volume dataset used to measure vehicle, pedestrian, and bicycle volumes. 
 - **City of Lincoln (CoL) Traffic Data**: Traditional traffic volume data used for calibration.
 - **Road Attributes**: Factors such as lane count, speed, median type, shoulder width, speed limits, and road flow type.
 - **EPA Smart Location Database (EPA-SLD)**: Provides insights into housing density, land use diversity, neighborhood design, transit service, and more.
@@ -20,7 +20,7 @@ By integrating these data sources, the study aims to refine traffic predictions 
 This repository does not include all raw data due to data privacy constraints. However, it provides processed datasets and code for analysis.
 
 ### Included Files:
-- **Vehicle, Pedestrian, and Bicycle Networks**: Spatially joined with road attributes from the NDOT geodatabase and EPA-SLD shapefiles.
+- **Vehicle, Pedestrian, and Bicycle Networks**: Spatially joined with road attributes from the NDOT geodatabase and EPA-SLD shapefiles. In regards to StL data, only indicators by time of day and day of week are included.
 - **Jupyter Notebooks**:
   - `process_pedestrian_bike_intersections.ipynb`: Processes pedestrian and bike data at the intersection level and prepares it for analysis.
   - `process_vehicle_links.ipynb`: Processes vehicle data at the link level and prepares it for analysis.
